@@ -8,34 +8,19 @@ using WebAppiParcial2.Models;
 
 namespace WebAppiParcial2.Controllers
 {
+    //[Route("")]
     public class ValuesController : ApiController
     {
-        // GET api/values
-        public IEnumerable<string> Get()
+        public IHttpActionResult Post([FromBody] ClaseRequest request )
         {
-            return new string[] { "value1", "value2" };
-        }
+            ResponseGeneral responseGeneral = new ResponseGeneral(Logica.LogicaPrincipal.Instancia.Alta(ClaseRequest.Conversor(request)));
 
-        // GET api/values/5
-        public string Get(int id)
-        {
-            return "value";
-        }
-
-        // POST api/values
-        public void Post([FromBody] string value)
-        {
-            
-        }
-
-        // PUT api/values/5
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        public void Delete(int id)
-        {
+            if (responseGeneral.Respuesta)
+            {
+                ClaseResponse objResponse = new ClaseResponse(responseGeneral.id);
+                return Content(HttpStatusCode.Created, objResponse);
+            }
+            return Content(HttpStatusCode.BadRequest, responseGeneral.Detalle);
         }
     }
 }
