@@ -5,10 +5,6 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logica", "Logica\Logica.csproj", "{3B12B296-A7C8-4450-AC1F-7C0A9BF8AC3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppiParcial2", "WebAppiParcial2\WebAppiParcial2.csproj", "{711619BF-9E83-4CD7-85E5-7F1B298A8FBC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestParcial2", "UnitTestParcial2\UnitTestParcial2.csproj", "{EA28FDF5-160F-47A9-B849-F86DBD8C1685}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,14 +15,6 @@ Global
 		{3B12B296-A7C8-4450-AC1F-7C0A9BF8AC3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B12B296-A7C8-4450-AC1F-7C0A9BF8AC3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B12B296-A7C8-4450-AC1F-7C0A9BF8AC3A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{711619BF-9E83-4CD7-85E5-7F1B298A8FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{711619BF-9E83-4CD7-85E5-7F1B298A8FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{711619BF-9E83-4CD7-85E5-7F1B298A8FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{711619BF-9E83-4CD7-85E5-7F1B298A8FBC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EA28FDF5-160F-47A9-B849-F86DBD8C1685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA28FDF5-160F-47A9-B849-F86DBD8C1685}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA28FDF5-160F-47A9-B849-F86DBD8C1685}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA28FDF5-160F-47A9-B849-F86DBD8C1685}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
