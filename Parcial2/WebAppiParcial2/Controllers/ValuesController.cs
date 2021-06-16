@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using WebAppiParcial2.Models;
 
 namespace WebAppiParcial2.Controllers
 {
@@ -24,6 +25,7 @@ namespace WebAppiParcial2.Controllers
         // POST api/values
         public void Post([FromBody] string value)
         {
+            
         }
 
         // PUT api/values/5
